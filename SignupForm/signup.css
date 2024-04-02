@@ -1,0 +1,77 @@
+body {
+    font-family: "Futura", serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.img {
+    display: flex;
+    width: 35%;
+    height: 90%;
+    margin: 1% 1% 1% 1%;
+    background: url(./photo-suf.jpg) no-repeat center;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid rgb(233, 223, 223);
+    border-radius: 6px;
+}
+
+.img-description {
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 100%;
+    color: rgb(255, 226, 226);
+    font-weight: 900;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-color: rgba(0, 0, 0, 0.472);
+    padding: 5px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.form {
+    overflow: auto;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+}
+
+.form > * {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.form-label {
+    font-weight: 900;
+    font-size: 20px;
+    display: block;
+    transition: all 0.5s;
+    transform: translateY(-3.4rem);
+}
+
+.form-input {
+    border: 2px solid gray;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.2rem;
+    width: 100%;
+    display: block;
+    transition: all 0.5s;
+    margin-top: 5%;
+    padding-right: 10%;
+}
+
+.form-input:focus {
+    transition: 0.2s;
+  
+}

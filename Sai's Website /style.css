@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Futura, Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1461696114087-397271a7aedc?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.container {
+    text-align: center; 
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.welcome {
+    font-size: 27px; 
+    font-style: italic;
+}
+
+.website {
+    font-size: 55px; 
+    font-family: 'Futura';
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 30px; 
+    margin: 10px;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px; 
+    border: none; 
+    transition: all 0.3s ease; 
+}
+
+.button:hover {
+    background: linear-gradient(to right, #4e54c8, #8f94fb); 
+    transform: translateY(-8px); 
+}
+
+
+
+.button:active {
+    transform: translateY(0); 
+}
