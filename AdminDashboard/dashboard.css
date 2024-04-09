@@ -1,3 +1,48 @@
+/* reset.css */
+/* You can add your reset styles here */
 
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+.header {
+    background-color: #333; /* Example color */
+    height: 60px; /* Example height */
+}
 
+.sidebar {
+    background-color: #555; /* Example color */
+    width: 250px; /* Example width */
+    height: 100vh; /* Example height */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-content {
+    margin-left: 250px; /* Width of the sidebar */
+    padding: 20px; /* Example padding */
+}
+
+.project-card-container {
+    /* Styles for project cards */
+}
+
+.side-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Example gap */
+}
+
+.announcements {
+    background-color: #777; /* Example color */
+    height: 200px; /* Example height */
+}
+
+.trends {
+    background-color: #999; /* Example color */
+    height: 200px; /* Example height */
+}
